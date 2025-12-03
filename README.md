@@ -1,2 +1,4 @@
 # Churn-Prediction
-This project builds an end-to-end customer churn prediction pipeline on the Telco Customer Churn dataset using PyCaret for low-code AutoML and a GPU-accelerated LightGBM classifier. 
+This project builds an end-to-end customer churn prediction pipeline on the Telco Customer Churn dataset using PyCaret for low-code AutoML and a GPU-accelerated LightGBM classifier. The workflow covers data cleaning, automated preprocessing, model selection, hyperparameter tuning, and performance evaluation with metrics such as ROC‑AUC, confusion matrix, and feature importance.
+
+The final LightGBM model achieves strong discriminative performance (AUC ≈ 0.85) and identifies key churn drivers such as customer tenure, paperless billing, payment method, and contract-related attributes. The notebook is structured so you can quickly retrain the model, run GPU-powered experiments, and adapt the pipeline to your own customer data for production churn scoring and retention strategy design.
